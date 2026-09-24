@@ -1,0 +1,31 @@
+shipment_id,carrier,origin,destination,weight_kg,freight_cost,transit_days,status
+1,DHL,Riga,Berlin,450.5,620.0,3,Delivered
+2,DHL,Riga,Warsaw,320.0,410.0,2,Delivered
+3,"DB Schenker",Vilnius,Berlin,780.0,890.0,4,Delayed
+4,DSV,Tallinn,Stockholm,210.5,350.0,2,Delivered
+5,DHL,Riga,Amsterdam,560.0,760.0,4,"In Transit"
+6,"DB Schenker",Riga,Prague,920.0,980.0,5,Delivered
+7,DSV,Vilnius,Warsaw,340.0,390.0,3,Delayed
+8,DHL,Tallinn,Helsinki,180.0,280.0,1,Delivered
+9,Kuehne+Nagel,Riga,Munich,670.0,820.0,4,Delivered
+10,DSV,Riga,Copenhagen,430.0,590.0,3,Delivered
+11,Kuehne+Nagel,Vilnius,Berlin,520.0,680.0,4,Delivered
+12,DSV,Riga,Hamburg,860.0,940.0,5,Delayed
+13,DHL,Vilnius,Warsaw,275.0,360.0,2,Delivered
+14,"DB Schenker",Tallinn,Berlin,690.0,810.0,4,"In Transit"
+15,Kuehne+Nagel,Riga,Vienna,740.0,870.0,5,Delivered
+16,DSV,Vilnius,Prague,410.0,520.0,3,Delivered
+17,DHL,Riga,Copenhagen,390.0,540.0,3,Delayed
+18,"DB Schenker",Riga,Amsterdam,950.0,1120.0,6,Delivered
+19,DSV,Tallinn,Warsaw,230.0,310.0,2,Delivered
+20,Kuehne+Nagel,Vilnius,Munich,610.0,790.0,4,"In Transit"
+21,DHL,Riga,Stockholm,285.0,390.0,2,Delivered
+22,"DB Schenker",Vilnius,Hamburg,830.0,970.0,5,Delayed
+23,DSV,Riga,Berlin,470.0,600.0,3,Delivered
+24,Kuehne+Nagel,Tallinn,Helsinki,195.0,260.0,1,Delivered
+25,DHL,Vilnius,Amsterdam,580.0,720.0,4,"In Transit"
+26,"DB Schenker",Riga,Munich,760.0,900.0,5,Delivered
+27,DSV,Vilnius,Copenhagen,350.0,470.0,3,Delayed
+28,Kuehne+Nagel,Riga,Prague,640.0,750.0,4,Delivered
+29,DHL,Tallinn,Stockholm,205.0,300.0,2,Delivered
+30,"DB Schenker",Vilnius,Vienna,880.0,1010.0,6,"In Transit"
