@@ -46,7 +46,7 @@ VALUES
 (30,'DB Schenker','Vilnius','Vienna',880,1010,6,'In Transit');
 
 
--- BASIC KPIs
+BASIC KPI
 
 SELECT COUNT(*) AS total_shipments
 FROM shipments;
@@ -63,8 +63,7 @@ FROM shipments;
 SELECT ROUND(AVG(transit_days),2) AS average_transit_days
 FROM shipments;
 
-
--- CARRIER ANALYSIS
+CARRIER ANALYSIS
 
 SELECT
     carrier,
@@ -102,7 +101,7 @@ GROUP BY carrier
 ORDER BY average_weight_kg DESC;
 
 
--- STATUS ANALYSIS
+STATUS ANALYSIS
 
 SELECT
     status,
@@ -125,7 +124,7 @@ GROUP BY carrier
 ORDER BY delayed_shipments DESC;
 
 
--- DELAY RATE
+DELAY RATE
 
 SELECT
     carrier,
@@ -141,7 +140,7 @@ GROUP BY carrier
 ORDER BY delay_rate_percent DESC;
 
 
--- ROUTE ANALYSIS
+ROUTE ANAKLYSIS
 
 SELECT
     origin,
@@ -169,7 +168,7 @@ GROUP BY origin
 ORDER BY shipment_count DESC;
 
 
--- COST ANALYSIS
+COST ANALYSIS
 
 SELECT
     shipment_id,
@@ -203,8 +202,8 @@ GROUP BY carrier
 ORDER BY cost_per_kg DESC;
 
 
--- TRANSIT ANALYSIS
-
+TRANSIT ANALYSI
+S
 SELECT
     shipment_id,
     carrier,
@@ -218,7 +217,7 @@ ORDER BY transit_days DESC
 LIMIT 5;
 
 
--- HEAVY SHIPMENTS
+HEAVY SHIPMENTS
 
 SELECT *
 FROM shipments
@@ -231,7 +230,7 @@ FROM shipments
 WHERE weight_kg > 500;
 
 
--- OVERALL KPI SUMMARY
+OVERALL KPI SUMMARY
 
 SELECT
     COUNT(*) AS total_shipments,
